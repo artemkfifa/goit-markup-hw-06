@@ -35,19 +35,54 @@
                 </svg>
             </button>
         </div>
-        <div class="mobile_menu is-open">
+
+        <div class="mobile_menu">
             <div class="container mobile_menu_container">
-                <button class="mobile_menu_close">Close</button>
-                <nav class="mobile_menu_nav">Navigation</nav>
-                <address>Adress</address>
-                <div>Soc Link</div>
+                <button class="mobile_menu_close">
+                    <svg width="8" height="8">
+                        <use href="./images/icons.svg#icon-close"></use>
+                    </svg>
+                </button>
+        
+                <nav class="mobile_menu_nav">
+                    <ul class="mobile_menu_list">
+                        <li><a href="#" class="mobile_menu_link current">Studio</a></li>
+                        <li><a href="#" class="mobile_menu_link">Portfolio</a></li>
+                        <li><a href="#" class="mobile_menu_link">Contacts</a></li>
+                    </ul>
+                </nav>
+        
+                <address class="mobile_menu_address">
+                    <a href="tel:+110001111111" class="mobile_menu_tel">+11 (000) 111-11-11</a>
+                    <a href="mailto:info@devstudio.com" class="mobile_menu_mail">info@devstudio.com</a>
+                </address>
+                
+                
+                    <ul class="mobile_menu_social">
+                        <li><a href="#"><svg  width="24" height="24">
+                                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                                </svg></a></li>
+                        <li><a href="#"><svg width="24" height="24">
+                                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                                </svg></a></li>
+                        <li><a href="#"><svg width="24" height="24">
+                                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                                </svg></a></li>
+                        <li><a href="#"><svg width="24" height="24">
+                                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                        </svg></a></li>
+                    </ul>
+               
+                
             </div>
         </div>
+
+
     </header>
     
     <main>
         
-            <section class="section_solution hidden">
+            <section class="section_solution ">
                 <div class="container conteiner_hero">
                         <h1 class="section_solution_title">Effective Solutions for Your Business</h1>
                         <button type="button" class="button_main">Order Service</button>
@@ -55,7 +90,7 @@
             </section>
 
             
-            <section class="section_benefit hidden">
+            <section class="section_benefit ">
                 <div class="container">
                     <h2 class="visually-hidden"></h2>
                     <ul class="benefit_list">        
@@ -108,7 +143,7 @@
                 </div>
             </section>
             
-            <section class="our_team hidden">
+            <section class="our_team">
                 <div class="container">
                     <h2 class="our_team_title">Our Team</h2>
                     <ul class="our_team_list">
@@ -300,7 +335,7 @@
                 </div>
             </section>
 
-            <section class="our_portfolio hidden">
+            <section class="our_portfolio">
                 <div class="container">
                     <h2 class="our_portfolio_title">Our Portfolio</h2>
                     <ul class="our_portfolio_list">
@@ -393,7 +428,7 @@
             </section>
     </main>
 
-    <footer class="footer hidden">
+    <footer class="footer">
         <div class="container footer_flex">
             <div class="logo_footer_block">
                 <a href="/" class="logo_footer">Web<span class="span_footer">Studio</span></a>
@@ -466,7 +501,7 @@
         
     </footer>
 
-    <div class="backdrop is-open hidden" >
+    <div class="backdrop is-open" hidden>
         <div class="modal">
             
                 
